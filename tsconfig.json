@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "lib": ["dom", "esnext"],
+    "baseUrl": ".",
+    "paths": {
+      "landing/*": ["packages/landing/*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    ".eslintrc.cjs",
+    "packages/main/index.tsx'"
+  ],
+  "exclude": ["node_modules", "**/.next"]
+}
